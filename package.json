@@ -1,0 +1,29 @@
+{
+  "name": "trz",
+  "version": "1.0.0",
+  "description": "TRZ (The Resident Zombie) - Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r @babel/register index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/joi": "^17.1.1",
+    "hapi-router": "^5.1.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.6",
+    "standard": "^14.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "dotenv": "^8.2.0"
+  }
+}
