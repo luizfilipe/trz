@@ -1,4 +1,4 @@
-#The Resident Zombie
+# The Resident Zombie
 
 ## Instalation
 
@@ -33,7 +33,7 @@
 	}
 }
 ```
-4 - PUT,PATCH /survivor/{id}/location - Updates a survivor location
+4 - PUT or PATCH /survivor/{id}/location - Updates a survivor location
 ```
 {
 	"location": {
@@ -42,9 +42,9 @@
 	}
 }
 ```
-5 - PUT,PATCH /survivor/{id}/report - Report a infection (Called 5 times for a given survivor will mark him as infected)
+5 - PUT or PATCH /survivor/{id}/report - Report a infection (Called 5 times for a given survivor will mark him as infected)
 
-6 - PUT,PATCH /survivor/trade - Trade resources between survivors
+6 - PUT or PATCH /survivor/trade - Trade resources between survivors
 ```
 { 
 	"seller": {
