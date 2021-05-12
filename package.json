@@ -13,7 +13,7 @@
     "@hapi/hapi": "^19.1.1",
     "@hapi/joi": "^17.1.1",
     "hapi-router": "^5.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mongoose": "^5.9.6",
     "standard": "^14.3.3"
   },
